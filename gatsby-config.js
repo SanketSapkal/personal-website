@@ -4,10 +4,13 @@ module.exports = {
   siteMetadata: {
     title: 'Sanket Sapkal',
     description:
-      'Sanket Sapkal is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Sanket Sapkal is a software engineer who specializes in building (and occasionally designing) distributed systems.',
+
+    //   TODO: Create a site url for your own.
     siteUrl: 'https://sanketsapkal.com', // No trailing slash allowed!
+
+    // TODO: Update this image with your own webpage
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
