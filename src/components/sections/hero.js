@@ -41,7 +41,7 @@ const StyledHeroSection = styled.section`
 
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 30px;
   }
 `;
