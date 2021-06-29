@@ -19,11 +19,11 @@ const StyledAboutSection = styled.section`
   }
 `;
 const StyledText = styled.div`
-  ul.skills-list {
+  ul.interests {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(1, minmax(140px, 200px));
     padding: 0;
-    margin: 20px 0 0 0;
+    margin: 10px 0px 20px 20px;
     overflow: hidden;
     list-style: none;
 
@@ -81,8 +81,6 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
 
@@ -125,7 +123,12 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Eleventy', 'Vue', 'Node.js', 'WordPress'];
+  const interests = [
+    'Distributed Systems',
+    'Machine Learning',
+    'Functional Programming',
+    'Web Development',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,29 +138,35 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Sanket and I enjoy building awesome software that solve practical
+              problems. I have 4 years of professional experience in building fault tolerant, high
+              performance, scalable distributed systems.
             </p>
 
             <p>
-              Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Currently, I am pursing Masters in Computer Science at the University of Southern
+              California. My interests include:
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            {/* With software development, there is always something new to discover. I am passionate about solving new challenges and learning new things. */}
+
+            {/* When I'm not in front of a computer screen, I'm probably hiking, surfing, skiing or crossing off another item on my bucket list. */}
           </div>
 
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+          <ul className="interests">
+            {interests && interests.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
+
+          <div>
+            <p>
+              I'm a nomad Software Engineer, always searching for the next challenge; no task is too
+              scary nor too difficult.
+            </p>
+            <p>
+              If you think I can be helpful to you or would like to meet me, please feel free to get
+              in touch.
+            </p>
+          </div>
         </StyledText>
 
         <StyledPic>
