@@ -20,7 +20,7 @@ const StyledHeroSection = styled.section`
     margin: 0 0 30px 4px;
     color: var(--green);
     font-family: var(--font-mono);
-    font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+    font-size: var(--fz-lg);
     font-weight: 400;
 
     @media (max-width: 480px) {
@@ -42,6 +42,7 @@ const StyledHeroSection = styled.section`
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
+    margin-right: 30px;
   }
 `;
 
@@ -58,23 +59,32 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const one = (
+    <h1>
+      Hi there!{' '}
+      <span role="img" aria-label="waving-hand">
+        👋🏼
+      </span>
+    </h1>
+  );
+  const two = <h2 className="big-heading">I'm Sanket Sapkal.</h2>;
+  const three = <h3 className="big-heading">I like building things.</h3>;
   const four = (
     <p>
-      I'm a Boston-based software engineer who specializes in building (and occasionally designing)
-      exceptional digital experiences. Currently, I'm an engineer at{' '}
-      <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-        Upstatement
-      </a>{' '}
-      focused on building accessible, human-centered products.
+      I'm currently pursuing Masters in Computer Science from University of Southern California. I
+      am looking for Software Development Internships for Summer 2022.
     </p>
   );
   const five = (
-    <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
-    </a>
+    <div>
+      {/* TODO: Later link the button to contact form instead of email */}
+      <a href={`mailto:${email}`} className="email-link">
+        Get In Touch
+      </a>
+      <a className="email-link" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+        Resume
+      </a>
+    </div>
   );
 
   const items = [one, two, three, four, five];
