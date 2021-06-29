@@ -104,7 +104,6 @@ const StyledLinks = styled.div`
       margin: 5px 5px;
       position: relative;
       font-size: var(--fz-md);
-      color: var(--green);
       padding: 10px;
     }
   }

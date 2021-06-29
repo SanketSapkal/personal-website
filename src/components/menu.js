@@ -127,7 +127,6 @@ const StyledSidebar = styled.aside`
       font-size: var(--fz-md)
       display: block;
       margin-bottom: 5px;
-      color: var(--green);
 
       @media (max-width: 600px) {
         margin: 0 auto 10px;
