@@ -115,7 +115,7 @@ const StyledSidebar = styled.aside`
     text-align: center;
   }
 
-  ol {
+  ul {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -124,19 +124,13 @@ const StyledSidebar = styled.aside`
     li {
       position: relative;
       margin: 0 auto 20px;
-      counter-increment: item 1;
-      font-size: clamp(var(--fz-sm), 4vw, var(--fz-lg));
+      font-size: var(--fz-md)
+      display: block;
+      margin-bottom: 5px;
+      color: var(--green);
 
       @media (max-width: 600px) {
         margin: 0 auto 10px;
-      }
-
-      &:before {
-        content: '0' counter(item) '.';
-        display: block;
-        margin-bottom: 5px;
-        color: var(--green);
-        font-size: var(--fz-sm);
       }
     }
 
@@ -152,6 +146,7 @@ const StyledSidebar = styled.aside`
     padding: 18px 50px;
     margin: 10% auto 0;
     width: max-content;
+    font-size: var(--fz-md);
   }
 `;
 
@@ -255,7 +250,7 @@ const Menu = () => {
         <StyledSidebar menuOpen={menuOpen} aria-hidden={!menuOpen} tabIndex={menuOpen ? 1 : -1}>
           <nav ref={navRef}>
             {navLinks && (
-              <ol>
+              <ul>
                 {navLinks.map(({ url, name }, i) => (
                   <li key={i}>
                     <Link to={url} onClick={() => setMenuOpen(false)}>
@@ -263,7 +258,7 @@ const Menu = () => {
                     </Link>
                   </li>
                 ))}
-              </ol>
+              </ul>
             )}
 
             <a href="/resume.pdf" className="resume-link">

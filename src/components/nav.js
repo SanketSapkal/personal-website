@@ -94,36 +94,25 @@ const StyledLinks = styled.div`
     display: none;
   }
 
-  ol {
+  ul {
     ${({ theme }) => theme.mixins.flexBetween};
     padding: 0;
     margin: 0;
     list-style: none;
 
     li {
-      margin: 0 5px;
+      margin: 5px 5px;
       position: relative;
-      counter-increment: item 1;
-      font-size: var(--fz-xs);
-
-      a {
-        padding: 10px;
-
-        &:before {
-          content: '0' counter(item) '.';
-          margin-right: 5px;
-          color: var(--green);
-          font-size: var(--fz-xxs);
-          text-align: right;
-        }
-      }
+      font-size: var(--fz-md);
+      color: var(--green);
+      padding: 10px;
     }
   }
 
   .resume-button {
     ${({ theme }) => theme.mixins.smallButton};
     margin-left: 15px;
-    font-size: var(--fz-xs);
+    font-size: var(--fz-md);
   }
 `;
 
@@ -186,14 +175,14 @@ const Nav = ({ isHome }) => {
             {Logo}
 
             <StyledLinks>
-              <ol>
+              <ul>
                 {navLinks &&
                   navLinks.map(({ url, name }, i) => (
                     <li key={i}>
                       <Link to={url}>{name}</Link>
                     </li>
                   ))}
-              </ol>
+              </ul>
               <div>{ResumeLink}</div>
             </StyledLinks>
 
@@ -210,7 +199,7 @@ const Nav = ({ isHome }) => {
             </TransitionGroup>
 
             <StyledLinks>
-              <ol>
+              <ul>
                 <TransitionGroup component={null}>
                   {isMounted &&
                     navLinks &&
@@ -222,7 +211,7 @@ const Nav = ({ isHome }) => {
                       </CSSTransition>
                     ))}
                 </TransitionGroup>
-              </ol>
+              </ul>
 
               <TransitionGroup component={null}>
                 {isMounted && (
