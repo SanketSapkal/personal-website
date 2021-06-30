@@ -12,6 +12,7 @@ const StyledAboutSection = styled.section`
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 50px;
+    color: var(--white);
 
     @media (max-width: 768px) {
       display: block;

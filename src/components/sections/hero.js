@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import DisplacementSphere from '@utils/animation/DisplacementSphere';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -28,15 +29,20 @@ const StyledHeroSection = styled.section`
     }
   }
 
+  h2 {
+    color: var(--white);
+  }
+
   h3 {
     margin-top: 10px;
-    color: var(--slate);
+    color: var(--white);
     line-height: 0.9;
   }
 
   p {
     margin: 20px 0 0;
-    max-width: 500px;
+    max-width: 600px;
+    color: var(--white);
   }
 
   .email-link {
@@ -99,14 +105,17 @@ const Hero = () => {
           ))}
         </>
       ) : (
-        <TransitionGroup component={null}>
-          {isMounted &&
-            items.map((item, i) => (
-              <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
-                <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
-              </CSSTransition>
-            ))}
-        </TransitionGroup>
+        <>
+          <DisplacementSphere />
+          <TransitionGroup component={null}>
+            {isMounted &&
+              items.map((item, i) => (
+                <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
+                  <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
+                </CSSTransition>
+              ))}
+          </TransitionGroup>
+        </>
       )}
     </StyledHeroSection>
   );

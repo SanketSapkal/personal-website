@@ -57,9 +57,13 @@ const StyledTabPanel = styled.div`
 
   .range {
     margin-bottom: 25px;
-    color: var(--light-slate);
+    color: var(--white);
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
+  }
+
+  .description {
+    color: var(--white);
   }
 `;
 
@@ -144,7 +148,7 @@ const Jobs = () => {
 
                   <p className="range">{range}</p>
 
-                  <div dangerouslySetInnerHTML={{ __html: html }} />
+                  <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
                   {/* TODO: Display stack similar to featured projects */}
                 </StyledTabPanel>
               );

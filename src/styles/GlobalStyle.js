@@ -167,6 +167,10 @@ const GlobalStyle = createGlobalStyle`
     font-size: clamp(26px, 5vw, var(--fz-heading));
     white-space: nowrap;
 
+    h2 {
+        color: var(--white);
+    }
+
     &:before {
       position: relative;
       bottom: 4px;

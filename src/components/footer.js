@@ -11,6 +11,7 @@ const StyledFooter = styled.footer`
   min-height: 70px;
   padding: 15px;
   text-align: center;
+  background-color: var(--dark-navy);
 `;
 
 const StyledSocialLinks = styled.div`

@@ -5,6 +5,7 @@ import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@compone
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
+  background-color: var(--dark-navy);
 `;
 
 const IndexPage = ({ location }) => (

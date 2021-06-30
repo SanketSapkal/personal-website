@@ -27,7 +27,7 @@ module.exports = {
         short_name: 'BrittanyChiang',
         start_url: '/',
         background_color: config.colors.darkNavy,
-        theme_color: config.colors.navy,
+        theme_color: config.colors.darkNavy,
         display: 'minimal-ui',
         icon: 'src/images/logo.png',
       },
