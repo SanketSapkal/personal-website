@@ -126,6 +126,7 @@ const About = () => {
   const interests = [
     'Distributed Systems',
     'Machine Learning',
+    'Blockchain',
     'Functional Programming',
     'Web Development',
   ];
