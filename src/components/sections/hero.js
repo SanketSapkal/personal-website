@@ -68,7 +68,7 @@ const Hero = () => {
     </h1>
   );
   const two = <h2 className="big-heading">I'm Sanket Sapkal.</h2>;
-  const three = <h3 className="big-heading">I like building things.</h3>;
+  const three = <h3 className="big-heading">Software Engineer.</h3>;
   //   TODO: Try to add a abstract wallpaper background to the website.
   const four = (
     <p>
