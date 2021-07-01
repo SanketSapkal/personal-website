@@ -23,8 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'SanketSapkal',
+        short_name: 'SanketSapkal',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.darkNavy,

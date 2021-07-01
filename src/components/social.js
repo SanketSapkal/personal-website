@@ -17,12 +17,14 @@ const StyledSocialList = styled.ul`
     content: '';
     display: block;
     width: 1px;
-    height: 90px;
+    height: 130px;
     margin: 0 auto;
-    background-color: var(--light-slate);
+    background-color: var(--white);
   }
 
   li {
+    color: var(--white);
+
     &:last-of-type {
       margin-bottom: 20px;
     }
