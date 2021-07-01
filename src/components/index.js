@@ -12,4 +12,5 @@ export { default as About } from './sections/about';
 export { default as Education } from './sections/education';
 export { default as Jobs } from './sections/jobs';
 export { default as Projects } from './sections/projects';
+export { default as Skills } from './sections/skills';
 export { default as Contact } from './sections/contact';

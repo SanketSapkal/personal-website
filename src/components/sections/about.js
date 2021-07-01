@@ -155,6 +155,7 @@ const About = () => {
             {/* When I'm not in front of a computer screen, I'm probably hiking, surfing, skiing or crossing off another item on my bucket list. */}
           </div>
 
+          {/* TODO:  increase font size for interests*/}
           <ul className="interests">
             {interests && interests.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
