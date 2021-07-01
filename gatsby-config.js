@@ -9,7 +9,7 @@ module.exports = {
     //   TODO: Create a site url for your own.
     siteUrl: 'https://sanketsapkal.com', // No trailing slash allowed!
 
-    // TODO: Update this image with your own webpage
+    // TODO: Update this image with your own webpage [DONE]
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [

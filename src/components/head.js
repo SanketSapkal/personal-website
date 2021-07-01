@@ -42,7 +42,7 @@ const Head = ({ title, description, image }) => {
 
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
-      {/* TODO: Update image for SEO */}
+      {/* TODO: Update image for SEO [DONE]*/}
       <meta property="og:image" content={seo.image} />
       <meta property="og:url" content={seo.url} />
       <meta property="og:type" content="website" />

@@ -75,7 +75,6 @@ const Hero = () => {
   );
   const two = <h2 className="big-heading">I'm Sanket Sapkal.</h2>;
   const three = <h3 className="big-heading">Software Engineer.</h3>;
-  //   TODO: Try to add a abstract wallpaper background to the website.
   const four = (
     <p>
       I'm currently pursuing Masters in Computer Science from University of Southern California. I
@@ -84,7 +83,6 @@ const Hero = () => {
   );
   const five = (
     <div>
-      {/* TODO: Later link the button to contact form instead of email */}
       <a href={`mailto:${email}`} className="email-link">
         Get In Touch
       </a>
