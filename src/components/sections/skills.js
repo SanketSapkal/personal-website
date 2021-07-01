@@ -28,6 +28,8 @@ const StyledSkillColumn = styled.div`
   ul {
     ${({ theme }) => theme.mixins.fancyList};
     color: var(--white);
+    font-family: var(--font-mono);
+    font-size: var(--fz-sm);
   }
 
   h3 {
