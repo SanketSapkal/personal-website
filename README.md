@@ -79,3 +79,16 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 | Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
 | White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
 | Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+
+## Blog (Pensieve)
+
+This template contains blog posts template as well, the blog posts are stored at
+`personal-website/content/posts/`. I have moved a sample post to
+`personal-website/content/sample-blogs` directory to refer for future use.
+
+The blog page can be accessed at `<ip>:<port>/pensieve`.
+
+## Archive
+
+The original template contained a page to display all the projects in a table
+view, this has been removed in commit:.
