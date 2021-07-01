@@ -91,4 +91,9 @@ The blog page can be accessed at `<ip>:<port>/pensieve`.
 ## Archive
 
 The original template contained a page to display all the projects in a table
-view, this has been removed in commit:.
+view, this has been removed in commit: 4c03a19a4135eb1440c7f6783ae34da3ba3c4f39
+
+## Projects
+
+The original template contained a projects sections with a featured section,
+this has been modified in commit: 25395ceebe2b8599cc18d505799df7a31cd473fa
