@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link, useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { srConfig } from '@config';
@@ -14,14 +14,6 @@ const StyledProjectsSection = styled.section`
 
   h2 {
     font-size: clamp(24px, 5vw, var(--fz-heading));
-  }
-
-  .archive-link {
-    font-family: var(--font-mono);
-    font-size: var(--fz-sm);
-    &:after {
-      bottom: 0.1em;
-    }
   }
 
   .projects-grid {
@@ -191,7 +183,6 @@ const Projects = () => {
 
   const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
-  const revealArchiveLink = useRef(null);
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -201,7 +192,6 @@ const Projects = () => {
     }
 
     sr.reveal(revealTitle.current, srConfig());
-    sr.reveal(revealArchiveLink.current, srConfig());
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
@@ -265,10 +255,6 @@ const Projects = () => {
   return (
     <StyledProjectsSection>
       <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
-
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
-      </Link>
 
       <ul className="projects-grid">
         {prefersReducedMotion ? (
