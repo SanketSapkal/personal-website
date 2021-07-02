@@ -260,7 +260,7 @@ const Menu = () => {
               </ul>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
+            <a href="/Sanket_Sapkal_Resume.pdf" className="resume-link">
               Resume
             </a>
           </nav>

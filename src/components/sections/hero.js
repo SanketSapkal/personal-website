@@ -86,7 +86,11 @@ const Hero = () => {
       <a href={`mailto:${email}`} className="email-link">
         Get In Touch
       </a>
-      <a className="email-link" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+      <a
+        className="email-link"
+        href="/Sanket_Sapkal_Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer">
         Resume
       </a>
     </div>
