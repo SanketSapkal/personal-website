@@ -146,7 +146,7 @@ const About = () => {
             </p>
 
             <p>
-              Currently, I am pursing Masters in Computer Science at the University of Southern
+              Currently, I am pursuing Masters in Computer Science at the University of Southern
               California. My interests include:
             </p>
 

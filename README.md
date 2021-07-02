@@ -19,8 +19,6 @@
 
 Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
 
-### TL;DR
-
 This repo is forked from
 [Brittany Chiang's v4 repo](https://github.com/bchiang7/v4), I have added
 animation to the homepage, modified the project section and added a skills
@@ -86,9 +84,9 @@ The blog page can be accessed at `<ip>:<port>/pensieve`.
 ## Archive
 
 The original template contained a page to display all the projects in a table
-view, this has been removed in commit: 4c03a19a4135eb1440c7f6783ae34da3ba3c4f39
+view, this has been removed in commit: `4c03a19a4135eb1440c7f6783ae34da3ba3c4f39`
 
 ## Projects
 
 The original template contained a projects sections with a featured section,
-this has been modified in commit: 25395ceebe2b8599cc18d505799df7a31cd473fa
+this has been modified in commit: `25395ceebe2b8599cc18d505799df7a31cd473fa`
