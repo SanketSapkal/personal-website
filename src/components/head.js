@@ -47,9 +47,7 @@ const Head = ({ title, description, image }) => {
       <meta property="og:url" content={seo.url} />
       <meta property="og:type" content="website" />
 
-      {/* TODO: When the domain is bought, add the content by verifying the
-          domain ownership by going on https://support.google.com/webmasters/answer/9008080?hl=en*/}
-      {/* <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" /> */}
+      <meta name="google-site-verification" content="GNMuLsgRp8dgAaEEsWC92nXhIdYgMhpC3n4L5CVVokI" />
     </Helmet>
   );
 };

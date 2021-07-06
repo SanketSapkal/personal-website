@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Sanket Sapkal is a software engineer who specializes in building (and occasionally designing) distributed systems.',
 
-    //   TODO: Create a site url for your own.
+    //   TODO: Create a site url for your own. [DONE]
     siteUrl: 'https://sanketsapkal.com', // No trailing slash allowed!
 
     // TODO: Update this image with your own webpage [DONE]
