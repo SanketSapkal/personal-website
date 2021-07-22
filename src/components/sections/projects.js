@@ -225,7 +225,9 @@ const Projects = () => {
                 <div className="project-content">
                   <div>
                     <h3 className="project-title">
-                      <a href={external}>{title}</a>
+                      {/* TODO: Uncomment after links are updated for projects */}
+                      {/* <a href={external}>{title}</a> */}
+                      {title}
                     </h3>
 
                     <div
