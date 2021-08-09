@@ -3,11 +3,10 @@ index: '3'
 title: 'Frameworks'
 ---
 
-- Android
-<!-- - CUDA -->
+- Phoenix
+- Riak Core
 - J2EE
 - MEAN stack
-- Phoenix
-- React
-- Riak Core
+- Android
 - Tensorflow
+- CUDA

@@ -3,9 +3,10 @@ index: '4'
 title: 'Languages'
 ---
 
-- C++
 - Elixir
 - Erlang
 - Java
+- C++
 - JavaScript
 - Python
+- Julia
