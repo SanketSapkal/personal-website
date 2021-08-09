@@ -27,4 +27,4 @@ url: 'https://www.veritas.com/'
 - Improved product security by adding OAuth 2.0, 2FA and KMIP support in the
   product.
 
-- **_Stack: Angular.js, Elixir, Erlang, Riak Core, RocksDB, LMDB._**
+- **_Stack: Elixir, Erlang, Riak Core, RocksDB, LMDB, Angular.js_**

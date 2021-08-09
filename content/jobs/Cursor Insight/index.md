@@ -25,4 +25,4 @@ url: 'https://cursorinsight.com/'
 
 - Implemented React component for resumable document uploader.
 
-- **_Stack: Erlang, MSSQL, React._**
+- **_Stack: Erlang, React, SQL_**

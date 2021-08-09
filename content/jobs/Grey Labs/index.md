@@ -9,4 +9,4 @@ url: ''
 
 - Designed and developed complete backend for the website "frrndlease.com".
 - Developed an admin panel with propritary MVC framework.
-- **_Stack: J2EE, SQL._**
+- **_Stack: J2EE, SQL_**
