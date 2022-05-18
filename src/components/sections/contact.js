@@ -63,9 +63,11 @@ const Contact = () => {
       <p>
         {/* Although I'm not currently looking for any new opportunities, my inbox is always open.
         Whether you have a question or just want to say hi, I'll try my best to get back to you! */}
-        I'm currently looking for Software Development Internships for Summer 2022. If you know of
+        {/* I'm currently looking for Software Development Internships for Summer 2022. If you know of
         any positions available, if you have any questions, or if you just want to say hi, please
-        feel free to get in touch.
+        feel free to get in touch. */}
+        Whether you have a question or just want to say hi, my inbox is always open and I'll try my
+        best to get back to you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
