@@ -77,12 +77,11 @@ const Hero = () => {
   const three = <h3 className="big-heading">Software Engineer.</h3>;
   const four = (
     <p>
-      I'm currently pursuing Masters in Computer Science from University of Southern California. I'm
-      also working with{' '}
+      I'm currently working as Senior Software Engineer with{' '}
       <a href={'https://www.tryklarity.com'} className="inline-link">
         Klarity Intelligence
       </a>{' '}
-      as a Senior Backend Intern
+      .
     </p>
   );
   const five = (

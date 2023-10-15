@@ -13,8 +13,8 @@ const IndexPage = ({ location }) => (
     <StyledMainContainer className="fillHeight">
       <Hero />
       <About />
-      <Education />
       <Jobs />
+      <Education />
       <Projects />
       <Skills />
       <Contact />

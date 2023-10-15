@@ -141,13 +141,13 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Sanket and I enjoy building awesome software that solve practical
-              problems. I have 4 years of professional experience in building fault tolerant, high
-              performance, scalable distributed systems.
+              problems. I have 5 years of professional experience in building fault tolerant, high
+              performance, scalable distributed systems and micro services.
             </p>
 
             <p>
-              Currently, I am pursuing Masters in Computer Science at the University of Southern
-              California. My interests include:
+              Currently, I am working as a Senior Software Engineer at Klarity Intelligence, Inc. My
+              interests include:
             </p>
 
             {/* With software development, there is always something new to discover. I am passionate about solving new challenges and learning new things. */}
@@ -166,8 +166,9 @@ const About = () => {
               scary nor too difficult.
             </p>
             <p>
-              If you think I can be helpful to you or would like to meet me, please feel free to get
-              in touch.
+              If you believe that my expertise aligns with your goals, or if you'd like to discuss
+              potential collaborations, please don't hesitate to reach out. I'm always eager to
+              connect with fellow enthusiasts and professionals.
             </p>
           </div>
         </StyledText>
