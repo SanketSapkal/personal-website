@@ -124,13 +124,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const interests = [
-    'Distributed Systems',
-    'Machine Learning',
-    'Blockchain',
-    'Functional Programming',
-    'Web Development',
-  ];
+  const interests = ['Gen AI', 'Distributed Systems', 'Blockchain', 'Functional Programming'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -142,7 +136,7 @@ const About = () => {
             <p>
               Hello! My name is Sanket and I enjoy building awesome software that solve practical
               problems. I have 5 years of professional experience in building fault tolerant, high
-              performance, scalable distributed systems and micro services.
+              performance, scalable distributed systems and GenAI applications.
             </p>
 
             <p>
